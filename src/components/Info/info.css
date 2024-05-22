@@ -1,0 +1,72 @@
+.avatar-container {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    position: relative;
+    overflow: hidden;
+    /* Để ẩn phần chữ chạy vượt quá vùng chứa */
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+
+.info {
+    margin-top: 1rem;
+    color: #333;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    position: relative;
+    /* Để đặt nền chữ chạy */
+    z-index: 1;
+    /* Để thông tin nằm trên nền chữ chạy */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info h2 {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 15px;
+}
+
+.info p {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin: 0.25rem 0;
+    padding-top: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.code-background {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 30%;
+    height: 100%;
+    color: var(--text-color);
+    white-space: pre-wrap;
+    /* Cho phép xuống dòng theo nội dung */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: rgba(127, 151, 161, 0.7);
+    /* Màu sắc đậm hơn để làm nền */
+    overflow: hidden;
+    padding: 10px;
+    z-index: 0;
+    /* Đưa nền chữ chạy ra sau */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Màu nền cho code */
+    border-radius: 10px;
+}

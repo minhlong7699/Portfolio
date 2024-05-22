@@ -1,0 +1,53 @@
+/* Import font Raleway từ Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #111415;
+    --secondary-color: #161A1B;
+    --text-color: #7F97A1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 1900px;
+    /* Giới hạn chiều rộng */
+    margin: 0 auto;
+    /* Căn giữa nội dung */
+    padding: 0 2rem;
+    /* Thêm khoảng cách từ trái và phải */
+}
+
+.divider {
+    border: none;
+    height: 3px;
+    background-color: var(--secondary-color);
+    margin: 8rem 15rem;
+}
+
+.title h2 {
+    font-size: 6rem;
+    text-align: right;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: 8rem;
+    width: fit-content;
+    font-weight: 100;
+}

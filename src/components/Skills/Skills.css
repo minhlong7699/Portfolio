@@ -1,0 +1,56 @@
+.skills-container {
+    padding: 2rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.skills-container h2 {
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.skills-container h2 span {
+    color: orange;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    max-width: 1000px;
+    /* Đặt giới hạn chiều rộng */
+    width: 100%;
+    /* Đặt chiều rộng của grid */
+}
+
+.category-title {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.category-title h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.skill-item {
+    width: 50%;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
